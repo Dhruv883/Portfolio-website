@@ -11,7 +11,7 @@ import Skills from "@/sections/Skills";
 
 export default function Home() {
   return (
-    <div className="bg-bgColor h-screen">
+    <div className="bg-darkPurple h-screen">
       {/* <Preloader /> */}
       <HomePage />
       <About />

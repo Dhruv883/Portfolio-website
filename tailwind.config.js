@@ -16,6 +16,9 @@ module.exports = {
       colors: {
         bgColor: "#1b1b1b",
         yellow: "#f8efd4",
+        yellowOrange: "#ECB365",
+        darkPurple: "#191627",
+        purple: "#6e57e0",
       },
       fontFamily: {
         BigShoulder: ["Big Shoulders Text", "sans-serif"],

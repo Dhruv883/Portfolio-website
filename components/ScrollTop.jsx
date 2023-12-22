@@ -43,7 +43,7 @@ const ScrollTop = () => {
 
   return (
     <button
-      className={`fixed border-2 border-[#262626] bottom-7 right-7 z-40 p-2 rounded-lg bg-bgColor ${
+      className={`fixed border-2 border-[#262626] bottom-7 right-7 z-40 p-2 rounded-lg bg-purple ${
         visible ? "flex" : "hidden"
       }`}
       id="myButton"
