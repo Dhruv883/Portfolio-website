@@ -1,10 +1,10 @@
 const Projects = () => {
   return (
-    <div
-      className="border-b border-red-500 h-screen bg-darkPurple text-white"
-      id="projects"
-    >
-      Projects Section
+    <div className="h-screen bg-darkPurple text-white" id="projects">
+      <div className="flex items-center justify-center text-7xl text-center md:text-left font-BigShoulderStencil px-2 py-1 text-purple">
+        Projects
+      </div>
+      <div>Content </div>
     </div>
   );
 };

@@ -28,7 +28,7 @@ const HomePage = () => {
       <Navbar />
       <div className="h-screen flex items-center justify-center md:justify-between px-3 md:px-10 mt-8">
         <div className="hidden md:flex md:mt-10">
-          <img src="/icons/developer.svg" alt="" />
+          <img src="/icons/coder.svg" alt="" />
         </div>
         <div className="md:mt-10 flex flex-col md:flex-row items-center gap-5">
           <div>

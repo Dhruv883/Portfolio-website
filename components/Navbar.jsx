@@ -39,13 +39,13 @@ const Navbar = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <div className="px-5 fixed left-0 top-0 right-0 bg-darkPurple border-b border-b-[#211b39] overflow-hidden">
+    <div className="px-5 py-1 fixed left-0 top-0 right-0 bg-darkPurple border-b border-b-[#211b39] overflow-hidden">
       {/* PC Navbar */}
       <div className="flex items-center justify-between w-full ">
         <div>
           <img src="/logo/logo-name.png" alt="" className="w-36" />
         </div>
-        <div className="gap-7 px-5 mt-3 hidden md:flex">
+        <div className="gap-7 px-5 mt-1 hidden md:flex">
           {menu.map((item, index) => {
             return (
               <a
