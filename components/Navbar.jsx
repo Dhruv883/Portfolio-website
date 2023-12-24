@@ -4,32 +4,32 @@ const Navbar = () => {
   const menu = [
     {
       name: "Home",
-      to: "#home",
+      to: "/#home",
       icon: "home",
     },
     {
       name: "About",
-      to: "#about",
+      to: "/#about",
       icon: "about",
     },
     {
       name: "Skills",
-      to: "#skills",
+      to: "/#skills",
       icon: "skills",
     },
     {
       name: "Projects",
-      to: "#projects",
+      to: "/#projects",
       icon: "projects",
     },
     {
       name: "Resume",
-      to: "#resume",
+      to: "/resume",
       icon: "resume",
     },
     {
       name: "Contact",
-      to: "#contact",
+      to: "/#contact",
       icon: "contact",
     },
   ];
@@ -71,7 +71,7 @@ const Navbar = () => {
 
       {/* Mobile Navbar */}
       {showMenu && (
-        <div className="md:hidden w-full h-full p-2 z-30 pb-20">
+        <div className="md:hidden w-full p-2 h-screen md:h-auto">
           <div className="flex flex-col gap-2">
             {menu.map((item, index) => {
               return (

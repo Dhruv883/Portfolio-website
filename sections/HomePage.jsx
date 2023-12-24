@@ -28,7 +28,7 @@ const HomePage = () => {
       <Navbar />
       <div className="h-screen flex items-center justify-center md:justify-between px-3 md:px-10 mt-8">
         <div className="hidden md:flex md:mt-10">
-          <img src="/icons/developer2.svg" alt="" />
+          <img src="/icons/developer.svg" alt="" />
         </div>
         <div className="md:mt-10 flex flex-col md:flex-row items-center gap-5">
           <div>
@@ -39,15 +39,15 @@ const HomePage = () => {
               Full Stack Developer
             </div>
 
-            <div className="flex justify-center gap-5 mt-4">
-              <button className="flex text-xl md:text-3xl items-center gap-2 bg-purple px-3 py-2 rounded-lg">
-                Resume
-                {/* <img
-                  src="/icons/up.svg"
-                  alt=""
-                  className="rotate-180 w-5 md:w-7"
-                /> */}
-              </button>
+            <div className="flex justify-center gap-5 mt-4 cursor-pointer">
+              <a
+                className="flex text-xl md:text-3xl items-center gap-2 bg-purple px-3 py-2 rounded-lg"
+                href="../Dhruv Dedhia - Resume.pdf"
+                download={"Dhruv Dedhia - Resume.pdf"}
+              >
+                <span>Resume</span>
+                <img src="/icons/download.svg" alt="" className="pb-[5px]" />
+              </a>
               <a
                 className="flex text-xl md:text-3xl items-center gap-2 bg-purple px-3 py-2 rounded-lg tracking-normal"
                 href="#contact"
