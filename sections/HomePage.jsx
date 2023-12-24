@@ -42,8 +42,8 @@ const HomePage = () => {
             <div className="flex justify-center gap-5 mt-4 cursor-pointer">
               <a
                 className="flex text-xl md:text-3xl items-center gap-2 bg-purple px-3 py-2 rounded-lg"
-                href="../Dhruv Dedhia - Resume.pdf"
-                download={"Dhruv Dedhia - Resume.pdf"}
+                download
+                href="../Dhruv_Dedhia-Resume.pdf"
               >
                 <span>Resume</span>
                 <img src="/icons/download.svg" alt="" className="pb-[5px]" />
