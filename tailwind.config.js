@@ -14,15 +14,18 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        bgColor: "#1b1b1b",
-        yellow: "#f8efd4",
-        yellowOrange: "#ECB365",
+        bgColor: "#191924",
         darkPurple: "#191627",
+        darkPurple2: "#191924",
         purple: "#6e57e0",
+        grey: "#b1b2b3",
       },
       fontFamily: {
-        BigShoulder: ["Big Shoulders Text", "sans-serif"],
-        BigShoulderStencil: ["Big Shoulders Stencil Text", "sans-serif"],
+        Poppins: ["Poppins", "sans-serif"],
+        Dosis: ["Dosis", "sans-serif"],
+      },
+      boxShadow: {
+        skillShad: "#6e57e01a 0px 4px 24px",
       },
     },
   },

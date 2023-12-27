@@ -1,9 +1,11 @@
 "use client";
 import Navbar from "@/components/Navbar";
+import Preloader from "@/components/Preloader";
 
 const page = () => {
   return (
     <div className="min-h-screen bg-darkPurple text-white font-BigShoulder tracking-widest">
+      <Preloader />
       <Navbar />
       <div className="h-screen flex items-center justify-center px-3 md:px-10 pt-28">
         <iframe

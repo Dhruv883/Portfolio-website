@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100;200;300;400;500&family=Big+Shoulders+Text:wght@100;200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600&family=Poppins:wght@200;300;400;500;600&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -13,16 +13,11 @@ html {
   background-color: #191627 !important;
 }
 
-::-webkit-scrollbar-track {
-  background-color: #3f356b88;
-  border-radius: 10px;
-}
-
 ::-webkit-scrollbar-thumb {
-  background-color: #6e57e063;
+  background-color: #6e57e0;
   border-radius: 8px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #6e57e0;
+  background-color: #6e57e063;
 }

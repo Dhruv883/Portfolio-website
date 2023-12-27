@@ -39,7 +39,7 @@ const Navbar = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <div className="px-5 py-1 fixed left-0 top-0 right-0 bg-darkPurple border-b border-b-[#211b39] overflow-hidden">
+    <div className="px-5 py-1 fixed left-0 top-0 right-0 bg-darkPurple overflow-hidden">
       {/* PC Navbar */}
       <div className="flex items-center justify-between w-full ">
         <div>
@@ -51,7 +51,7 @@ const Navbar = () => {
               <a
                 href={item.to}
                 key={index}
-                className="text-purple text-2xl font-medium cursor-pointer font-BigShoulder tracking-wider border-b-2 border-transparent hover:border-b-purple px-1 transition-all duration-500 ease-in-out"
+                className="text-white hover:text-purple text-lg cursor-pointer font-Poppins px-1 transition-all duration-300 ease-in-out"
               >
                 {item.name}
               </a>
@@ -82,7 +82,7 @@ const Navbar = () => {
                   <a
                     href={item.to}
                     key={index}
-                    className="text-purple text-4xl font-semibold cursor-pointer font-BigShoulder tracking-wider py-2"
+                    className="text-purple text-4xl font-medium cursor-pointer font-Poppins py-2"
                   >
                     {item.name}
                   </a>

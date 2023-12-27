@@ -1,10 +1,10 @@
 const About = () => {
   return (
-    <div className="h-screen bg-darkPurple text-white border" id="about">
-      <div className="flex items-center justify-center text-8xl text-center md:text-left font-BigShoulderStencil px-2 py-1 text-purple font-medium">
+    <div className="h-screen text-white pt-20" id="about">
+      <div className="flex items-center justify-center text-6xl font-Poppins px-2 py-1 font-medium">
         About
       </div>
-      <div>Content </div>
+      <div>About Content</div>
     </div>
   );
 };

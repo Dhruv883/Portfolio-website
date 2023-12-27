@@ -26,7 +26,7 @@ const ScrollTop = () => {
   }
 
   return (
-    <button
+    <a
       className={`fixed border-2 border-[#262626] bottom-7 right-7 z-40 p-2 rounded-lg bg-purple ${
         visible ? "flex" : "hidden"
       }`}
@@ -34,7 +34,7 @@ const ScrollTop = () => {
       onClick={scrollToTop}
     >
       <img src="/icons/up.svg" alt="" />
-    </button>
+    </a>
   );
 };
 
