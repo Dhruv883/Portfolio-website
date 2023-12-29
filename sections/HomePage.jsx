@@ -24,8 +24,8 @@ const HomePage = () => {
       id="home"
     >
       <div className="h-screen flex items-center justify-center md:justify-between px-3 md:px-6 pt-10">
-        <div className="hidden md:flex md:mt-10">
-          <img src="/icons/coder.svg" alt="" />
+        <div className="hidden md:flex">
+          <img src="/icons/developer.svg" alt="" />
         </div>
         <div className="md:mt-10 flex flex-col md:flex-row items-center justify-center gap-5">
           <div>

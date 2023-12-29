@@ -36,8 +36,8 @@ const Skills = () => {
   ];
 
   return (
-    <div className="text-white pt-16" id="skills">
-      <div className="flex items-center justify-center text-center text-5xl font-Poppins px-2 py-1 font-medium mb-10 ">
+    <div className="text-purple pt-16" id="skills">
+      <div className="flex items-center justify-center text-center text-5xl font-Poppins px-2 py-1 font-medium mb-10">
         Tools & Skills
       </div>
       <div className="flex flex-col mx-5 lg:flex-row  items-center lg:items-stretch justify-evenly gap-4 lg:gap-12 gap-y-10">
@@ -61,7 +61,7 @@ const Skills = () => {
                         <img
                           src={`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${skill.icon}`}
                           alt={skill.name}
-                          width={40}
+                          width={45}
                         />
                       </span>
                       <span>{skill.name}</span>

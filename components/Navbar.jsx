@@ -39,7 +39,7 @@ const Navbar = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <div className="px-5 py-1 fixed left-0 top-0 right-0 bg-darkPurple overflow-hidden">
+    <div className="px-5 py-1 fixed left-0 top-0 right-0 bg-darkPurple overflow-hidden z-50">
       {/* PC Navbar */}
       <div className="flex items-center justify-between w-full ">
         <div>
@@ -75,7 +75,11 @@ const Navbar = () => {
           <div className="flex flex-col gap-2">
             {menu.map((item, index) => {
               return (
-                <span className="flex items-center gap-5">
+                <button
+                  className="flex items-center gap-5"
+                  key={index}
+                  onClick={toggleMenu}
+                >
                   <span className="w-14 flex justify-center">
                     <img src={`/icons/${item.icon}.svg`} alt="" />
                   </span>
@@ -86,7 +90,7 @@ const Navbar = () => {
                   >
                     {item.name}
                   </a>
-                </span>
+                </button>
               );
             })}
           </div>

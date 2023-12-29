@@ -16,9 +16,9 @@ module.exports = {
       colors: {
         bgColor: "#191924",
         darkPurple: "#191627",
-        darkPurple2: "#191924",
         purple: "#6e57e0",
-        grey: "#b1b2b3",
+        grey: "#ffffffa3",
+        royalBlue: "#0c0c1c",
       },
       fontFamily: {
         Poppins: ["Poppins", "sans-serif"],

@@ -4,7 +4,7 @@ import Preloader from "@/components/Preloader";
 
 const page = () => {
   return (
-    <div className="min-h-screen bg-darkPurple text-white font-BigShoulder tracking-widest">
+    <div className="min-h-screen bg-darkPurple ">
       <Preloader />
       <Navbar />
       <div className="h-screen flex items-center justify-center px-3 md:px-10 pt-28">
@@ -12,7 +12,6 @@ const page = () => {
           src="https://drive.google.com/file/d/1uP5LzXzVgA_NpYSYIxXWN6vlXMCTlAtj/preview"
           allow="autoplay"
           allowtransparency="true"
-          frameborder="0"
           className="w-screen md:w-2/3 h-full bg-darkPurple border-none outline-none"
         ></iframe>
       </div>
