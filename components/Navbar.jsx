@@ -7,11 +7,11 @@ const Navbar = () => {
       to: "/#home",
       icon: "home",
     },
-    {
-      name: "About",
-      to: "/#about",
-      icon: "about",
-    },
+    // {
+    //   name: "About",
+    //   to: "/#about",
+    //   icon: "about",
+    // },
     {
       name: "Skills",
       to: "/#skills",

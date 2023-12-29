@@ -13,10 +13,10 @@ import Skills from "@/sections/Skills";
 export default function Home() {
   return (
     <div className="bg-darkPurple">
-      {/* <Preloader /> */}
+      <Preloader />
       <Navbar />
       <HomePage />
-      <About />
+      {/* <About /> */}
       <Skills />
       <Projects />
       <Contact />

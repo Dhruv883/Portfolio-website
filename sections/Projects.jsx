@@ -17,7 +17,7 @@ const Projects = () => {
         <ProjectComp /> */}
       </div>
       <a
-        className="mx-5 text-5xl pt-10 cursor-pointer flex items-center gap-5 text-white"
+        className="mx-5 text-5xl py-10 cursor-pointer flex items-center gap-5 text-white border-b-2 border-purple"
         href="/projects"
       >
         <span>View More</span>
