@@ -7,9 +7,9 @@ import ProjectComp from "@/components/ProjectComp";
 const page = () => {
   return (
     <div className="text-purple pt-16 bg-darkPurple" id="projects">
-      {/* <Preloader /> */}
+      <Preloader />
       <Navbar />
-      <div className="flex items-center justify-center text-center text-5xl font-Poppins px-2 py-1 font-medium mb-10">
+      <div className="flex items-center justify-center text-center text-5xl font-Poppins px-2 py-1 font-medium">
         Projects
       </div>
       <div className="mx-5">

@@ -2,7 +2,7 @@ const projects = [
   {
     name: "Web Widgets",
     img: "webwidgets",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos ipsa, illo officia alias eos qui veniam sint ipsam neque, accusantium voluptatum dolore corporis minima tempora, inventore iste a voluptatibus temporibus mollitia maiores. Modi, asperiores aperiam?",
+    desc: "A web application that allows you to personalize your browsing experience by adding customized widgets and creating dynamic layouts. ",
     technologies: ["Next.js, TailwindCSS, MongoDB, Next-Auth, NextUI"],
     live: "https://the-web-widgets.vercel.app/",
     code: "https://github.com/Dhruv883/WebWidgets",
@@ -11,7 +11,7 @@ const projects = [
   {
     name: "Story Craft",
     img: "storycraft",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos ipsa, illo officia alias eos qui veniam sint ipsam neque, accusantium voluptatum dolore corporis minima tempora, inventore iste a voluptatibus temporibus mollitia maiores. Modi, asperiores aperiam?",
+    desc: "Simple blog site that allows users to create, read, update and delete their blogs. You can also search for blogs by title and tags.",
     technologies: [
       "React.js, Node.js, Express.js, MongoDB, Redux, TailwindCSS",
     ],
@@ -22,7 +22,7 @@ const projects = [
   {
     name: "Task Mate",
     img: "taskmate",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos ipsa, illo officia alias eos qui veniam sint ipsam neque, accusantium voluptatum dolore corporis minima tempora, inventore iste a voluptatibus temporibus mollitia maiores. Modi, asperiores aperiam?",
+    desc: "Task list application that allows you to create projects with different priorities and create tasks for a specific project. Users can filter tasks by due date and change the status of the task ",
     technologies: ["React.js, Tailwind CSS, Loacal Storage"],
     live: "https://dhruv883-task-list.netlify.app/",
     code: "https://github.com/Dhruv883/Task-List",
@@ -31,7 +31,7 @@ const projects = [
   {
     name: "DocPlus",
     img: "docplus",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos ipsa, illo officia alias eos qui veniam sint ipsam neque, accusantium voluptatum dolore corporis minima tempora, inventore iste a voluptatibus temporibus mollitia maiores. Modi, asperiores aperiam?",
+    desc: "Docplus is a web application that allows patients to view various specialities and doctors and book online appointments. It is built using HTML, CSS, JS, and PHP.",
     technologies: ["HTML, CSS, JavaScript, PHP, MySQL"],
     live: "",
     code: "https://github.com/Dhruv883/Hospital-Management-System",
@@ -40,7 +40,7 @@ const projects = [
   {
     name: "Dom's Kitchen",
     img: "domkitchen",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos ipsa, illo officia alias eos qui veniam sint ipsam neque, accusantium voluptatum dolore corporis minima tempora, inventore iste a voluptatibus temporibus mollitia maiores. Modi, asperiores aperiam?",
+    desc: "DOM's Kitchen is a web application that allows customers to view and order various food items online. It is built using HTML, CSS, JS, and PHP.",
     technologies: ["HTML, CSS, JavaScript, PHP, MySQL"],
     live: "",
     code: "https://github.com/Dhruv883/Restaurant-Management-System",
@@ -49,8 +49,8 @@ const projects = [
   {
     name: "Weather App",
     img: "weather",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos ipsa, illo officia alias eos qui veniam sint ipsam neque, accusantium voluptatum dolore corporis minima tempora, inventore iste a voluptatibus temporibus mollitia maiores. Modi, asperiores aperiam?",
-    technologies: ["HTML, CSS, JavaScript, APIs"],
+    desc: "Simple weather app to display the current weather of any city in the world in Fahrenheit and Celsius. Created with the OpenWeather API.",
+    technologies: ["HTML, CSS, JavaScript, OpenWeather API"],
     live: "https://dhruv883.github.io/Weather-App/",
     code: "https://github.com/Dhruv883/Weather-App",
     grpProj: false,
@@ -58,10 +58,10 @@ const projects = [
   {
     name: "Portfolio Website",
     img: "portfolio",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos ipsa, illo officia alias eos qui veniam sint ipsam neque, accusantium voluptatum dolore corporis minima tempora, inventore iste a voluptatibus temporibus mollitia maiores. Modi, asperiores aperiam?",
+    desc: "My Personal Portfolio Website made using Next.js, TailwindCSS and framer motion for animations.",
     technologies: ["Next.js, TailwindCSS, Framer Motion"],
     live: "",
-    code: "",
+    code: "https://github.com/Dhruv883/Portfolio-website",
     grpProj: false,
   },
 ];
