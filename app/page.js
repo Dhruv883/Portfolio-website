@@ -1,4 +1,5 @@
 "use client";
+import { useEffect, useState } from "react";
 
 import Preloader from "@/components/Preloader";
 import ScrollTop from "@/components/ScrollTop";
@@ -11,16 +12,26 @@ import Projects from "@/sections/Projects";
 import Skills from "@/sections/Skills";
 
 export default function Home() {
+  const [show, setShow] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setShow(true);
+    }, 2000);
+  }, []);
+
   return (
     <div className="bg-darkPurple">
       <Preloader />
       <Navbar />
-      <HomePage />
-      {/* <About /> */}
-      <Skills />
-      <Projects />
-      <Contact />
-      <ScrollTop />
+      {show && (
+        <>
+          <HomePage />
+          <Skills />
+          <Projects />
+          <Contact />
+          <ScrollTop />
+        </>
+      )}
     </div>
   );
 }
