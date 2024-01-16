@@ -12,13 +12,11 @@ const Projects = () => {
         {proj.map((item, index) => {
           return <ProjectComp key={index} item={item} />;
         })}
-        {/* <ProjectComp />
-        <ProjectComp />
-        <ProjectComp /> */}
       </div>
       <a
         className="mx-5 text-5xl py-10 cursor-pointer flex items-center gap-5 text-white border-b-2 border-purple"
-        href="/projects"
+        href="https://github.com/Dhruv883"
+        target="_blank"
       >
         <span>View More</span>
         <img src="/icons/arrowLink.svg" alt="" width={55} className="pt-4" />
